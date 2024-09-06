@@ -13,7 +13,12 @@ This project implements an image style transfer algorithm using TensorFlow/PyTor
 
 ## Usage
 
-[To be added]
+1. Place your content image in the data/content_images/ directory.
+2. Place your style image in the data/style_images/ directory.
+3. Run the style transfer:
+python main.py --content_image path/to/content_image.jpg --style_image path/to/style_image.jpg --output_image path/to/output_image.jpg
+4. Replace the paths with your actual image file names.
+5. The stylized image will be saved in the outputs/ directory.
 
 ## Project Structure
 
@@ -26,4 +31,4 @@ This project implements an image style transfer algorithm using TensorFlow/PyTor
 
 ## License
 
-[Your chosen license]
+MIT License
